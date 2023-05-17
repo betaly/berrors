@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "@nutol/build/config/tsconfig.common.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "outDir": "dist/mjs",
+    "rootDir": "src"
+  },
+  "include": [
+    "src"
+  ]
+}
